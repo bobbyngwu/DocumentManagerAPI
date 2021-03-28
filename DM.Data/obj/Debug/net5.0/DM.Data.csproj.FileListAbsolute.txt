@@ -1,0 +1,11 @@
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\net5.0\DM.Data.deps.json
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\net5.0\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\net5.0\ref\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\net5.0\DM.Data.pdb
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.AssemblyInfoInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.AssemblyInfo.cs
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.csproj.CoreCompileInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\ref\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\net5.0\DM.Data.pdb

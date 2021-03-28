@@ -1,0 +1,9 @@
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\netcoreapp3.1\DM.Data.deps.json
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\netcoreapp3.1\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\bin\Debug\netcoreapp3.1\DM.Data.pdb
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.AssemblyInfoInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.AssemblyInfo.cs
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.csproj.CoreCompileInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.pdb
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Data\obj\Debug\netcoreapp3.1\DM.Data.csprojAssemblyReference.cache

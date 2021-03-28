@@ -1,0 +1,12 @@
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\bin\Debug\netcoreapp3.1\DM.Services.deps.json
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\bin\Debug\netcoreapp3.1\DM.Services.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\bin\Debug\netcoreapp3.1\DM.Services.pdb
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\bin\Debug\netcoreapp3.1\DM.Data.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\bin\Debug\netcoreapp3.1\DM.Data.pdb
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.csprojAssemblyReference.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.AssemblyInfoInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.AssemblyInfo.cs
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.csproj.CoreCompileInputs.cache
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.csproj.CopyComplete
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.dll
+C:\Work\WaresConsult\DocumentManagerAPI\DM.Services\obj\Debug\netcoreapp3.1\DM.Services.pdb
