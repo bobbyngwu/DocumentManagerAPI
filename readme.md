@@ -7,7 +7,7 @@ The project is work in progress and is yet to be completely implemented and full
 # To Do:
 1. Implement Repository Pattern
 2. Implement all endpoints
-3. Implement all Service methods
+3. Implement all Service methods and Business Logic including Validation
 4. Bind and implement all Specflow Test Steps
 5. Secure the API
 
