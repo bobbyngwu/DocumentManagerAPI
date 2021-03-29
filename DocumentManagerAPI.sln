@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DM.Services", "DM.Services\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagerAPI", "DM.Web\DocumentManagerAPI.csproj", "{8BB545DF-3A34-414D-8F39-C0D6ADB0E66B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM.Specs", "DM.Tests\BDD\DM.Specs\DM.Specs.csproj", "{8C0B3C67-FB25-49D1-983F-82DB8F17EF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DM.Specs.Services", "DM.Tests\BDD\DM.Specs.Services\DM.Specs.Services.csproj", "{27008BC5-C5DC-4403-826B-E4C803CC1864}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{8BB545DF-3A34-414D-8F39-C0D6ADB0E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB545DF-3A34-414D-8F39-C0D6ADB0E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB545DF-3A34-414D-8F39-C0D6ADB0E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0B3C67-FB25-49D1-983F-82DB8F17EF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0B3C67-FB25-49D1-983F-82DB8F17EF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0B3C67-FB25-49D1-983F-82DB8F17EF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0B3C67-FB25-49D1-983F-82DB8F17EF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27008BC5-C5DC-4403-826B-E4C803CC1864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27008BC5-C5DC-4403-826B-E4C803CC1864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27008BC5-C5DC-4403-826B-E4C803CC1864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27008BC5-C5DC-4403-826B-E4C803CC1864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

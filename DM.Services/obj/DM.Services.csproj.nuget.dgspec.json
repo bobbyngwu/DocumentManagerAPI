@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj": {}
+    "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj": {}
   },
   "projects": {
-    "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
+    "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
+        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
         "projectName": "DM.Data",
-        "projectPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
+        "projectPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
         "packagesPath": "C:\\Users\\ngwuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\obj\\",
+        "outputPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj": {
+    "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
+        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
         "projectName": "DM.Services",
-        "projectPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
+        "projectPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
         "packagesPath": "C:\\Users\\ngwuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\obj\\",
+        "outputPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
-                "projectPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj"
+              "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
+                "projectPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj"
               }
             }
           }
@@ -111,6 +111,14 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

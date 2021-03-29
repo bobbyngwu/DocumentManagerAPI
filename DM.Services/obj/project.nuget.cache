@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "6IK0NiD6D2lxZQCslsTkoZGVoaCA7D4HHdq9Q/KXBfX4Q1G8FJNQ68Xg2Y/I2Sq8FcJQNDfEomlN/ah0oxaVxQ==",
+  "dgSpecHash": "eokkQnJC6gJSX+ZynQBxhwPlkj6vB+6gEXNyRnmQmcOokZaVVlo4RU5VSolxSK8DZc4QkOh9Gq1XdHSeYGTrNw==",
   "success": true,
-  "projectFilePath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
+  "projectFilePath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Services\\DM.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ngwuc\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.4\\microsoft.aspnetcore.http.features.5.0.4.nupkg.sha512",
     "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\ngwuc\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\ngwuc\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\ngwuc\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"

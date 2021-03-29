@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {}
+    "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {}
   },
   "projects": {
-    "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
+    "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
+        "projectUniqueName": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
         "projectName": "DM.Data",
-        "projectPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
+        "projectPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
         "packagesPath": "C:\\Users\\ngwuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\obj\\",
+        "outputPath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

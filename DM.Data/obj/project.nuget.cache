@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F0rY9/Dz+4YcI5Go7DIPSX2UY8tkyNRoX59/ijrcfj9UYsmYlQAYOLbVK/WU0a5+CbHSerCS+qWucPeQoqha+g==",
+  "dgSpecHash": "epnrLj3a0omchUVRH8fGoNeH9z7iykoQPXvvPkD65r0VlrgzkknTsk+PE36S4CnV0lVFmNy20MQJuB3EpGEWCw==",
   "success": true,
-  "projectFilePath": "C:\\Work\\WaresConsult\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
+  "projectFilePath": "C:\\Work\\WaresConsult\\DocumentManager\\DocumentManagerAPI\\DM.Data\\DM.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

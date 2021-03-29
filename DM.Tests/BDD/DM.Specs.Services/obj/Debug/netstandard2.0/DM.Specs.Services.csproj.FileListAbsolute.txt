@@ -1,0 +1,9 @@
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\bin\Debug\netstandard2.0\DM.Specs.Services.deps.json
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\bin\Debug\netstandard2.0\DM.Specs.Services.dll
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\bin\Debug\netstandard2.0\DM.Specs.Services.pdb
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.AssemblyInfoInputs.cache
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.AssemblyInfo.cs
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.csproj.CoreCompileInputs.cache
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.dll
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.pdb
+C:\Work\WaresConsult\DocumentManager\DocumentManagerAPI\DM.Tests\BDD\DM.Specs.Services\obj\Debug\netstandard2.0\DM.Specs.Services.csprojAssemblyReference.cache

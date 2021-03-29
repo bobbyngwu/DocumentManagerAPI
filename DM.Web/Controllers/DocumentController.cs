@@ -22,11 +22,15 @@ namespace DocumentManagerAPI.Controllers
 	{
 		private readonly IDocumentService _documentService;
 		ILogger<DocumentController> _logger;
+		private readonly IFileStorageService _fileStorageService;
 
-		public DocumentController(IDocumentService documentService, ILogger<DocumentController> logger, IOptionsSnapshot<DocumentUploadConfig> documentUploadConfig) :base(documentUploadConfig)
+		public DocumentController(IDocumentService documentService, ILogger<DocumentController> logger, 
+			IOptionsSnapshot<DocumentUploadConfig> documentUploadConfig, 
+			IFileStorageService fileStorageService) :base(documentUploadConfig)
 		{
 			_documentService = documentService;
 			_logger = logger;
+			_fileStorageService = fileStorageService;
 		}
 
 
@@ -57,16 +61,36 @@ namespace DocumentManagerAPI.Controllers
 			return Ok(document);
 		}
 
-		[HttpPost]
-		[Route("document")]
-		public async Task<IActionResult> CreateDocument([FromBody] List<IFormFile> files, CancellationToken cancellationToken)
+
+		[HttpGet]
+		[Route("download/{fileName}")]
+		[ResponseCache(Location = ResponseCacheLocation.Client, Duration = 10000000)]
+		public async Task<FileContentResult> DownloadDocument(string fileName, CancellationToken cancellatioToken)
 		{
-			var documentResult = await _documentService.CreateDocument(files, cancellationToken);
-			if (documentResult.Item2 == DocumentProcessingStatusEnum.FileUploaded)
+			var documentUrl = await _fileStorageService.GetFilePath(fileName, cancellatioToken);
+			if (!string.IsNullOrEmpty(documentUrl))
 			{
-				return StatusCode((int)HttpStatusCode.Created, documentResult.Item1);
+				WebClient client = new WebClient();
+				return new FileContentResult(client.DownloadData(documentUrl), await _fileStorageService.GetMimeType(fileName))
+				{
+					FileDownloadName = fileName
+				};
 			}
-			return HandleProcessingStatus(documentResult.Item2);
+			return null;
+		}
+
+		[HttpPost]
+		[Route("upload")]
+		public async Task<IActionResult> UploadDocument([FromForm] IFormFile file, CancellationToken cancellationToken)
+		{
+			if (file == null)
+				return StatusCode((int) HttpStatusCode.BadRequest, "File Value cannot be null");
+			var documentResult = await _documentService.CreateDocument(file, cancellationToken);
+			if (documentResult?.ProcessingStatus == DocumentProcessingStatusEnum.FileUploaded)
+			{
+				return StatusCode((int)HttpStatusCode.Created, documentResult.FileName);
+			}
+			return HandleProcessingStatus(documentResult.ProcessingStatus);
 
 		}
 

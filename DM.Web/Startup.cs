@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using DM.Data.DTO;
 using DocumentManagerAPI.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,7 @@ namespace DocumentManagerAPI
 		{
 			services.AddControllers();
 			services.AddOptions();
+			services.Configure<DocumentUploadConfig>(Configuration.GetSection("FileUploadConfig"));
 		}
 
 		public void ConfigureContainer(ContainerBuilder builder)

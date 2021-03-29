@@ -16,7 +16,7 @@ namespace DM.Services.Interface
 	}
 	public interface IDocumentEditService
 	{
-		Task<Tuple<string, DocumentProcessingStatusEnum>> CreateDocument(List<IFormFile> files, CancellationToken cancellationToken);
+		Task<FileUploadResultDTO> CreateDocument(IFormFile file, CancellationToken cancellationToken);
 		Task ReorderDocuments(IList<DocumentDTO>  documents, CancellationToken cancellationToken);
 		Task<DocumentProcessingStatusEnum> DeleteDocument(int id, CancellationToken cancellationToken);
 	}

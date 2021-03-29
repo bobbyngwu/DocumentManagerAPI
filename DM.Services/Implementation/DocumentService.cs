@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using DM.Data.DTO;
 using DM.Services.Interface;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 
 namespace DM.Services.Implementation
 {
@@ -24,9 +25,34 @@ namespace DM.Services.Implementation
 	}
     public class DocumentEditService : IDocumentEditService
 	{
-		public async Task<Tuple<string, DocumentProcessingStatusEnum>> CreateDocument(List<IFormFile> files, CancellationToken cancellationToken)
+		private readonly IFileStorageService _fileStorageService;
+		private readonly ILogger<DocumentEditService> _logger;
+		public DocumentEditService(IFileStorageService fileStorageService, ILogger<DocumentEditService> logger)
 		{
-			throw new NotImplementedException();
+			_fileStorageService = fileStorageService;
+			_logger = logger;
+		}
+		public async Task<FileUploadResultDTO> CreateDocument(IFormFile file, CancellationToken cancellationToken)
+		{
+			FileUploadResultDTO result = new FileUploadResultDTO();
+			// attempt to save this
+			if (file != null && file.Length > 0)
+			{
+				try
+				{
+					var fileName = await _fileStorageService.Save(file, cancellationToken);
+					result.FileName = fileName;
+					// append to DocumentDBContext
+					// context.saveChanges
+					result.ProcessingStatus = DocumentProcessingStatusEnum.FileUploaded;
+				}
+				catch (Exception ex)
+				{
+					_logger.LogError("Error Saving file", ex);
+					result.ProcessingStatus = DocumentProcessingStatusEnum.OperationFailed;
+				}
+			}
+			return result;
 		}
 		public async Task ReorderDocuments(IList<DocumentDTO> documents, CancellationToken cancellationToken)
 		{
@@ -46,7 +72,7 @@ namespace DM.Services.Implementation
 			_editService = editService;
 			_readService = readService;
 		}
-		public Task<Tuple<string, DocumentProcessingStatusEnum>> CreateDocument(List<IFormFile> files, CancellationToken cancellationToken) => _editService.CreateDocument(files, cancellationToken);
+		public Task<FileUploadResultDTO> CreateDocument(IFormFile file, CancellationToken cancellationToken) => _editService.CreateDocument(file, cancellationToken);
 		public Task ReorderDocuments(IList<DocumentDTO> documents, CancellationToken cancellationToken) => _editService.ReorderDocuments(documents, cancellationToken);
 		public Task<DocumentProcessingStatusEnum> DeleteDocument(int id, CancellationToken cancellationToken) => _editService.DeleteDocument(id, cancellationToken);
 		public Task<IList<DocumentDTO>> GetDocuments(CancellationToken cancellationToken) => _readService.GetDocuments(cancellationToken);

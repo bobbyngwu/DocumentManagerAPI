@@ -16,5 +16,6 @@ namespace DM.Data.DTO
 		/// comma delimited file types without the dot
 		/// </summary>
 		public string AllowedFileTypes { get; set; }
+		public string LocalMediaDir { get; set; }
 	}
 }

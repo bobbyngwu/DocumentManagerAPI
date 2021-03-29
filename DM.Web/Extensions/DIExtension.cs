@@ -16,6 +16,7 @@ namespace DocumentManagerAPI.Extensions
 			builder.RegisterService<IDocumentReadService, DocumentReadService>();
 			builder.RegisterService<IDocumentEditService, DocumentEditService>();
 			builder.RegisterService<IDocumentService, DocumentService>();
+			builder.RegisterService<IFileStorageService, FileStorageService>();
 
 			return builder;
 		}
